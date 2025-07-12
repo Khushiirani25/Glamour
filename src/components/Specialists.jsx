@@ -104,7 +104,8 @@ const Specialists = () => {
                     <h3 className='text-2xl md:text-3xl font-bold text-gray-800 mb-6'>
                         Ready to Consult With Our Specialists ?
                     </h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <p className='text-lg mb-8 max-w-2xl text-gray-600 mx-auto'>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                     <nav className='flex flex-col sm:flex-row justify-center gap-4'>
                         <a href='#' className='bg-pink-600 hover:bg-pink-700 text-white px-8 py-3 rounded-full transition shadow-lg focus:outline-none focus:ring-2 focus:ring-pink-800 focus:ring-offset-2' aria-label='Book a consultation'>
                             Book Consultation
