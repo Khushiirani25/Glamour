@@ -17,22 +17,20 @@ const Header = () => {
     ]
     return (
        <header className='bg-gradient-to-r from-pink-100 to-purple-100 sticky top-0 z-50'>
-        <div className='container mx-auto px-4 py-4 flex justify-between items-center'>
+        <div className='max-w-screen-xl mx-auto px-4 py-4 flex justify-between items-center'>
             <a href="/" className='flex items-center focus:outline-none focus:ring-2 focus:ring-pink-600 rounded'>
             <h1 className='text-2xl font-bold text-pink-600'>Glamour Clinic</h1>
             </a>
-            <nav aria-label='Primary navigation'>
-                <ul className='hidden md:flex space-x-8'>
+            <nav className='hidden md:flex space-x-6' aria-label='Primary navigation'>
+                
                     {navLinks.map((link, index) => (
-                        <li key={index}>
                             <a 
+                            key={index}
                             href={link.href}
                             className='text-gray-700 hover:text-pink-600 transition-colors duration-200 focus:outline-none focus:ring-pink-600 focus:rounded'>
                                 {link.label}
                             </a>
-                        </li>
                     ))}
-                </ul>
             </nav>
             <button className='md:hidden p-2 focus:outline-none focus:ring-2 focus:ring-pink-600 rounded'
             onClick={toggleMenu}

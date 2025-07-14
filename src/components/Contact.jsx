@@ -108,20 +108,20 @@ export const Contact = () => {
                             <div>
                                 <label className='block text-gray-700 font-medium mb-2'>Phone Number</label>
                                 <input type='tel' id='phone' name='phone' 
-                                className='w-fullpx-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent'
+                                className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent'
                                 placeholder='+44 XX XXX XXX' required />
                             </div>
                         </fieldset>
                         <div>
                                 <label className='block text-gray-700 font-medium mb-2'>Email Address</label>
                                 <input type='email' id='email' name='email' 
-                                className='w-fullpx-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent'
+                                className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent'
                                 placeholder='your@gmail.com' required />
                             </div>
                             <div>
                                 <label className='block text-gray-700 font-medium mb-2'>Service Interested In</label>
                                 <select id='service' name='service' 
-                                className='w-fullpx-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent'
+                                className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent'
                                 placeholder='your@gmail.com' required>
                                 <option value="">Select a service</option>
                                 {services.map((service)=>(
@@ -134,7 +134,7 @@ export const Contact = () => {
                              <div>
                                 <label className='block text-gray-700 font-medium mb-2'>Your Message</label>
                                 <textarea id='message' name='message' rows='5' 
-                                className='w-fullpx-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent'
+                                className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent'
                                 placeholder='Tell us about your concerns or questions' required />
                             </div>
                             <div>
